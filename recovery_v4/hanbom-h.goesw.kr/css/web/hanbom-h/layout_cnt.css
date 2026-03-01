@@ -1,0 +1,32 @@
+@charset "utf-8";
+:root {
+    --main-color: #aa1948;
+    /* 메인컬러 */
+    --strong-color: #00283f;
+    /* 포인트 강조색 */
+}
+
+#header #gnb,
+.topUtil .totalSearch button {
+    background: var(--main-color);
+}
+
+#header #gnb #nav.oneDown .depth02 {
+    border-color: var(--main-color);
+}
+
+/* media query mobile */
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media (max-width:690px) {}
+
+@media (max-width:560px) {}
+
+@media screen and (max-width: 480px) {}
+
+@media (max-width:380px) {}

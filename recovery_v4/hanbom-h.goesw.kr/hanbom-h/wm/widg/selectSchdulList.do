@@ -1,0 +1,1 @@
+[{"bgndeD":"01","alldayAt":"N","bgndeY":"2026","enddeM":"03","bgndeM":"03","enddeY":"2026","schdulTitle":"3.1ì ˆ","schdulSeq":"H2026/03/01","enddeD":"01","endde":"2026/03/01","bgnde":"2026/03/01"}]
