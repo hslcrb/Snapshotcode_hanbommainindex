@@ -25,6 +25,17 @@ Beyond mere file moves, the internal reference systems were completely redesigne
 - **호환성 최적화**: 모든 링크를 `.html`로 정규화하여 어떤 브라우저나 오프라인 환경에서도 끊김 없는 탐색이 가능합니다.
   - Standardized all links to `.html` for seamless navigation in any environment.
 
+### 3. 고정밀 복구 (High-Fidelity Recovery)
+단순 웹 정비를 넘어, 데이터의 무결성을 보장하기 위한 고도의 기술적 복원 작업을 수행했습니다.
+Beyond mere web refinement, advanced technical restoration was performed to ensure data integrity.
+
+- **인코딩 완벽 복구**: 손실된 한글 인코딩(Mojibake)을 원본 바이너리 분석과 Python 무손실 변환을 통해 100% 복구했습니다.
+  - 100% restoration of Korean encoding (Mojibake) via binary analysis and lossless Python conversion.
+- **UX/UI 레이아웃 수선**: asset 통합 과정에서 발생한 복잡한 상대 경로 문제를 해결하고, 레이아웃의 시각적 완성도를 원본과 동일하게 복원했습니다.
+  - Resolved complex relative path issues and restored the visual layout to match the original.
+- **작업 기록 보존**: 모든 정비 과정에 사용된 PowerShell 및 Python 스크립트를 기록물로 보존하여 아카이브의 역사적 가치를 높였습니다.
+  - Preserved all PowerShell and Python scripts used in the process as historical records.
+
 ## 결론 (Conclusion)
 이러한 통합 작업을 통해, 본 프로젝트는 단순한 "데이터 백업" 수준을 넘어 전문적으로 정비된 **디지털 아카이브 웹 자산**으로 완성되었습니다.
 Through this unification, the project has evolved from a simple "data backup" into a professionally refined digital archive web asset.

@@ -27,7 +27,9 @@ The project has been unified into a standard web structure:
   - `fonts/`: 로컬 및 외부 웹 폰트 (Local & web fonts)
   - `uploads/`: 게시판 등 미디어 업로드 파일 (Media upload files)
 - **`docs/`**: 상세 분석 및 구조 문서 (Detailed analysis and structure docs)
-- **`backups/`**: 원본 소스 데이터 (Original source data)
+- **`backups/`**: 원본 소스 데이터 및 작업 기록물 (Original source data & historical records)
+  - `scripts/`: 초기 정비에 사용된 PowerShell 스크립트 (PowerShell scripts)
+  - `py-scripts/`: 통합 및 인코딩 복구에 사용된 Python 스크립트 (Python scripts)
 
 ---
 

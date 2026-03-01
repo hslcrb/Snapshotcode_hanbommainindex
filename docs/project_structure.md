@@ -28,7 +28,8 @@ All resources are consolidated into the `assets/` folder for a standardized stru
 - `docs/`: 프로젝트의 상세한 기술 분석 및 구조 설명 문서입니다 (Bilingual).
   - Detailed technical analysis and structure documentation.
 - `backups/`: 원본 아카이브 상태를 보존한 백업 데이터 및 작업에 사용된 스크립트 기록입니다.
-  - `scripts/`: 프로젝트 정비 및 통합 과정에서 사용된 모든 PowerShell 스크립트가 보관되어 있습니다.
+  - `scripts/`: 초기 프로젝트 정규화 및 정비에 사용된 PowerShell 스크립트입니다.
+  - `py-scripts/`: 고도의 통합 작업, 인코딩 복구 및 UI/UX 수선에 사용된 Python 스크립트입니다.
   - Backup data and historical records of scripts used during the reorganization.
 
 ## 경로 처리 원칙 (Path Principles)
