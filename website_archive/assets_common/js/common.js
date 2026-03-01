@@ -3,35 +3,35 @@ $(function() {
     snb();
     mNav();
 
-    //js로딩 후
+    //js로딩 ??
     setTimeout(function() {
-        $('html').addClass('shOn');
+        $'html'.addClass'shOn';
     }, 100);
 
-    if ($('#quickMenu').length > 0) {
+    if ($'#quickMenu'.length > 0) {
         quickMenu();
     }
 
     //moblie search
-    $("#mSearchOpen").click(function(e) {
-        if ($("#header .totalSearch").hasClass('active') == true) {
-            $("#header .totalSearch").removeClass('active');
-            $(this).prop('title', '모바일검색 열기').find('i').prop('class', 'xi-search');
+    $"#mSearchOpen".click(function(e) {
+        if ($"#header .totalSearch".hasClass'active' == true) {
+            $"#header .totalSearch".removeClass'active';
+            $(this).prop'title', '모바?��????�기'.find'i'.prop'class', 'xi-search';
         } else {
-            $("#header .totalSearch").addClass('active');
-            $(this).prop('title', '모바일검색 닫기').find('i').prop('class', 'xi-close');
+            $"#header .totalSearch".addClass'active';
+            $(this).prop'title', '모바?��????�기'.find'i'.prop'class', 'xi-close';
         }
         e.preventDefault();
     });
 
     // HASH 버튼
     var hashtarget = '';
-    $('.hash').on('click', function(e) {
-        $(this.hash).fadeIn(200).find('a').first().focus();
+    $'.hash'.on'click', function(e) {
+        $(this.hash).fadeIn(200).find'a'.first().focus();
         hashtarget = $(this);
         e.preventDefault();
     });
-    $('.hashClose').on('click focusout', function(e) {
+    $'.hashClose'.on'click focusout', function(e) {
         $(this.hash).fadeOut(200);
         hashtarget.focus();
         hashtarget = '';
@@ -39,8 +39,8 @@ $(function() {
     });
 
     // HASH TOGGLE 버튼
-    $('.hashToggle').on('click', function(e) {
-        ($(this).hasClass('active') == true) ? $(this).removeClass('active'): $(this).addClass('active');
+    $'.hashToggle'.on'click', function(e) {
+        ($(this).hasClass'active' == true) ? $(this).removeClass'active': $(this).addClass'active';
         $(this.hash).slideToggle(200);
         e.preventDefault();
     });
@@ -48,182 +48,182 @@ $(function() {
 
 // web navigation
 function gnb() {
-    var $nav = $('#nav');
-    $gnb = $('#gnb');
-    $depth01 = $gnb.find('.depth01');
-    $depth02 = $gnb.find('.depth02');
-    $depth03 = $gnb.find('.depth03');
-    $depth01.li = $depth01.find('> ul > li');
-    $depth02.li = $depth02.find('> ul > li');
-    $depth03.li = $depth03.find('> ul > li');
+    var $nav = $'#nav';
+    $gnb = $'#gnb';
+    $depth01 = $gnb.find'.depth01';
+    $depth02 = $gnb.find'.depth02';
+    $depth03 = $gnb.find'.depth03';
+    $depth01.li = $depth01.find'> ul > li';
+    $depth02.li = $depth02.find'> ul > li';
+    $depth03.li = $depth03.find'> ul > li';
     defaultHeight = $depth01.li.innerHeight();
 
     //setting
-    $gnb.find('li').each(function() {
-        ($(this).find('> div > ul').length > 0) ? $(this).addClass('dep').find('> a').prop('title', '메뉴닫힘'): '';
+    $gnb.find'li'.each(function() {
+        ($(this).find'> div > ul'.length > 0) ? $(this).addClass'dep'.find'> a'.prop'title', '메뉴?�힘': '';
     });
-    $gnb.find('li').last().find('> a').addClass('lastGnb');
+    $gnb.find'li'.last().find'> a'.addClass'lastGnb';
 
     //show 240305
-    $(document).on('click', '#gnb li.dep > a', function(e) {
-        var $this_li = $(this).parent('li');
-        if ($this_li.hasClass('active')) {
-            $this_li.removeClass('active').find(' > a').prop('title', '메뉴닫힘');
+    $(document).on'click', '#gnb li.dep > a', function(e) {
+        var $this_li = $(this).parent'li';
+        if ($this_li.hasClass'active') {
+            $this_li.removeClass'active'.find' > a'.prop'title', '메뉴?�힘';
         } else {
-            $this_li.addClass('active').find('> a').prop('title', '메뉴열림');
-            $this_li.siblings().removeClass('active');
+            $this_li.addClass'active'.find'> a'.prop'title', '메뉴?�림';
+            $this_li.siblings().removeClass'active';
         }
         e.preventDefault();
     });
-    $depth01.find('> ul > li > a').on('focus mouseover', function() {
-        $(this).parent().addClass('on').siblings().removeClass('on');
+    $depth01.find'> ul > li > a'.on'focus mouseover', function() {
+        $(this).parent().addClass'on'.siblings().removeClass'on';
     });
 
-    // 240329 메인메뉴 웹접근성 수정
-    $depth01.find('> ul > li > a').on('focus mouseover', function(e) {
-        var $this_li = $(this).parent('li');
-        if ($this_li.hasClass('on')) {
-            $this_li.find(' > a').prop('title', '메뉴열림');
-            $this_li.siblings().find(' > a').prop('title', '메뉴닫힘');
+    // 240329 메인메뉴 ?�접근성 ?�정
+    $depth01.find'> ul > li > a'.on'focus mouseover', function(e) {
+        var $this_li = $(this).parent'li';
+        if ($this_li.hasClass'on') {
+            $this_li.find' > a'.prop'title', '메뉴?�림';
+            $this_li.siblings().find' > a'.prop'title', '메뉴?�힘';
         }
         e.preventDefault();
     });
 
-    $depth01.li.find('> a').on('focus mouseover', function() {
-        $gnb.addClass('active');
-        $('#gnbblind').fadeIn(100);
+    $depth01.li.find'> a'.on'focus mouseover', function() {
+        $gnb.addClass'active';
+        $'#gnbblind'.fadeIn(100);
     });
 
     //fullDown show
-    $(document).on('click', '#nav.fullDown .depth02 li.dep > a', function(e) {
-        $(this).parents('.depth02').parent('li').addClass('on').siblings().removeClass('on');
+    $(document).on'click', '#nav.fullDown .depth02 li.dep > a', function(e) {
+        $(this).parents'.depth02'.parent'li'.addClass'on'.siblings().removeClass'on';
     });
 
     //hide
-    $gnb.on('mouseleave', function() {
+    $gnb.on'mouseleave', function() {
         gnbHide();
     });
 
-    $(document).on('focusout', '#gnb .lastGnb', function() {
+    $(document).on'focusout', '#gnb .lastGnb', function() {
         gnbHide();
     });
 
     function gnbHide() {
-        $gnb.removeClass('active').find('li').removeClass('on');
-        if ($nav.hasClass('oneDown') == true) {
-            $depth02.li.removeClass('active');
-            $depth02.find('> ul > li.dep > a').prop("title", "메뉴닫힘");
+        $gnb.removeClass'active'.find'li'.removeClass'on';
+        if ($nav.hasClass'oneDown' == true) {
+            $depth02.li.removeClass'active';
+            $depth02.find'> ul > li.dep > a'.prop"title", "메뉴?�힘";
         }
-        $('#gnbblind').fadeOut(100);
+        $'#gnbblind'.fadeOut(100);
     }
 }
 
 //moblie navigation
 function mNav() {
     // setting
-    var gnb = $('#gnb > .depth01').clone();
-    var headerUtil = $('#header .util_wrap ul').clone();
+    var gnb = $'#gnb > .depth01'.clone();
+    var headerUtil = $'#header .util_wrap ul'.clone();
 
-    $('#mNav .snb').append(headerUtil);
+    $'#mNav .snb'.append(headerUtil);
 
-    $('#mgnb').append(gnb).find('li').removeAttr('style').find('.titBox').remove();
+    $'#mgnb'.append(gnb).find'li'.removeAttr'style'.find'.titBox'.remove();
 
     // open & close
-    $("#mNavOpen").click(function(e) {
-        $("#mNav").addClass('active');
-        $('body').addClass('bodyFix');
+    $"#mNavOpen".click(function(e) {
+        $"#mNav".addClass'active';
+        $'body'.addClass'bodyFix';
         e.preventDefault();
     });
 
-    $("#mNavClose").click(function(e) {
-        $("#mNav").removeClass('active');
-        $('body').removeClass('bodyFix');
+    $"#mNavClose".click(function(e) {
+        $"#mNav".removeClass'active';
+        $'body'.removeClass'bodyFix';
         e.preventDefault();
     });
 
     //show
-    $(document).on('click', '#mNav li.dep > a', function(e) {
-        $(this).parent('li').toggleClass('active').siblings().removeClass('active');
+    $(document).on'click', '#mNav li.dep > a', function(e) {
+        $(this).parent'li'.toggleClass'active'.siblings().removeClass'active';
         e.preventDefault();
     });
 }
 
-/* 2020.05.12 SY,CHo 클래스 적용으로 수정 */
+/* 2020.05.12 SY,CHo ?�래???�용?�로 ?�정 */
 $(function() {
     function check() {
-        $("#menuOpen").click(function(e) {
+        $"#menuOpen".click(function(e) {
             e.preventDefault();
-            $("#mNavi").addClass("active");
-            $('html, body').scrollTop(0);
+            $"#mNavi".addClass"active";
+            $'html, body'.scrollTop(0);
         });
 
-        $("#mtitle a").click(function(e) {
+        $"#mtitle a".click(function(e) {
             e.preventDefault();
-            $("#mNavi").removeClass("active");
+            $"#mNavi".removeClass"active";
         });
 
-        //하위 메뉴 없을 경우
-        $("#mNavi #mgnb ul li ul").parent("li").addClass('row');
-        $("#mNavi #mgnb ul li.row > a").attr("href", "#none");
+        //?�위 메뉴 ?�을 경우
+        $"#mNavi #mgnb ul li ul".parent"li".addClass'row';
+        $"#mNavi #mgnb ul li.row > a".attr"href", "#none";
 
-        // 하위 메뉴 있는 경우 클릭시
-        $("#mNavi #mgnb ul li.row > a").click(function() {
-            $(this).parent().siblings().children('ul').slideUp(300);
-            $(this).siblings("ul").slideToggle(300);
+        // ?�위 메뉴 ?�는 경우 ?�릭??
+        $"#mNavi #mgnb ul li.row > a".click(function() {
+            $(this).parent().siblings().children'ul'.slideUp(300);
+            $(this).siblings"ul".slideToggle(300);
             return false;
         });
 
-        // 검색
-        $("#searchOpen").click(function(e) {
+        // 검??
+        $"#searchOpen".click(function(e) {
             e.preventDefault();
-            $("#mSearch").addClass("active");
+            $"#mSearch".addClass"active";
         });
-        $(".btnSearchClose").click(function(e) {
+        $".btnSearchClose".click(function(e) {
             e.preventDefault();
-            $("#mSearch").removeClass("active");
+            $"#mSearch".removeClass"active";
         });
     }
 
     $(window).resize(function() {
         var winWidth = $(window).width();
         if (winWidth > 1024) {
-            $("#mNavi").removeClass("active");
+            $"#mNavi".removeClass"active";
         }
     });
 
     check();
 
-    // 맨위로 가기
-    $('.btn_top').hide();
+    // 맨위�?가�?
+    $'.btn_top'.hide();
     $(window).scroll(function() {
         if ($(this).scrollTop() > 200) {
-            $('.btn_top').fadeIn();
+            $'.btn_top'.fadeIn();
         } else {
-            $('.btn_top').fadeOut();
+            $'.btn_top'.fadeOut();
         }
     });
-    $('.btn_top').click(function(e) {
+    $'.btn_top'.click(function(e) {
         e.preventDefault();
-        $('html, body').stop().animate({
+        $'html, body'.stop().animate({
             scrollTop: 0
         }, 400);
     });
 });
 
 
-//서브메뉴  
+//?�브메뉴  
 function snb() {
-    var $snb = $('#snb');
+    var $snb = $'#snb';
 
-    $snb.find('.snb_wrap .active:last').parent().addClass('mobSnb');
-    $snb.find('.snb_wrap .active:last').parents().addClass("active");
-    $snb.find('li').each(function() {
-        if ($(this).hasClass('active') == true) {
+    $snb.find'.snb_wrap .active:last'.parent().addClass'mobSnb';
+    $snb.find'.snb_wrap .active:last'.parents().addClass"active";
+    $snb.find'li'.each(function() {
+        if ($(this).hasClass'active' == true) {
             var ul = $(this).parent();
-            var active = $(this).clone().removeAttr('id');
-            var lnbName = $(this).find('>a').clone().text();
-            $(this).after(active).next().removeClass('active').find('ul').remove();
-            $(this).find('>a').prop('title', lnbName + ' 메뉴 확장'); //접근성 : active 메뉴 타이틀 추가
+            var active = $(this).clone().removeAttr'id';
+            var lnbName = $(this).find'>a'.clone().text();
+            $(this).after(active).next().removeClass'active'.find'ul'.remove();
+            $(this).find'>a'.prop'title', lnbName + ' 메뉴 ?�장'; //?�근??: active 메뉴 ?�?��? 추�?
 
             var activeCut = $(this).detach();
             var activeCut__test = $(this).clone();
@@ -232,16 +232,16 @@ function snb() {
         }
     });
 
-    $snb.find('.snb_wrap li.active > a').on('click', function(e) {
+    $snb.find'.snb_wrap li.active > a'.on'click', function(e) {
         var $ul = $(this).parent().parent();
-        if ($ul.hasClass('open') == true) {
-            $ul.removeClass('open').find('> li > a').removeAttr('tabindex');
-            $(this).prop('title', ' 메뉴 닫힘'); //접근성 : active 메뉴 타이틀 추가
+        if ($ul.hasClass'open' == true) {
+            $ul.removeClass'open'.find'> li > a'.removeAttr'tabindex';
+            $(this).prop'title', ' 메뉴 ?�힘'; //?�근??: active 메뉴 ?�?��? 추�?
 
         } else {
-            $('#snb').find('ul.open').removeClass('open');
-            $ul.addClass('open').find('> li > a').prop('tabindex', '1');
-            $(this).prop('title', ' 메뉴 열림'); //접근성 : active 메뉴 타이틀 추가
+            $'#snb'.find'ul.open'.removeClass'open';
+            $ul.addClass'open'.find'> li > a'.prop'tabindex', '1';
+            $(this).prop'title', ' 메뉴 ?�림'; //?�근??: active 메뉴 ?�?��? 추�?
 
         }
         depthCheck = true;
@@ -250,45 +250,45 @@ function snb() {
 
 
 
-    //접근성 : tabindex
-    $(document).on('focusout', '.snb_wrap ul > li:last-child > a', function() {
-        $('.snb_wrap').find('li > a').removeAttr('tabindex');
-        if ($(this).parents('ul').hasClass('open') == false) {
-            $(this).parent().parent().find('li.active > a').prop('title', '메뉴 닫힘');
+    //?�근??: tabindex
+    $(document).on'focusout', '.snb_wrap ul > li:last-child > a', function() {
+        $'.snb_wrap'.find'li > a'.removeAttr'tabindex';
+        if ($(this).parents'ul'.hasClass'open' == false) {
+            $(this).parent().parent().find'li.active > a'.prop'title', '메뉴 ?�힘';
         }
-        if ($(this).parents('ul').hasClass('dep01') == true) {
-            $('.snb_wrap .dep01').removeClass('open');
-            $('.snb_wrap .dep02 > li:first-child > a').focus();
+        if ($(this).parents'ul'.hasClass'dep01' == true) {
+            $'.snb_wrap .dep01'.removeClass'open';
+            $'.snb_wrap .dep02 > li:first-child > a'.focus();
         }
-        if ($(this).parents('ul').hasClass('dep02') == true) {
-            $('.snb_wrap .dep02').removeClass('open');
-            $('.snb_wrap .dep03 > li:first-child > a').focus();
+        if ($(this).parents'ul'.hasClass'dep02' == true) {
+            $'.snb_wrap .dep02'.removeClass'open';
+            $'.snb_wrap .dep03 > li:first-child > a'.focus();
         }
-        if ($(this).parents('ul').hasClass('dep03') == true) {
-            $('.snb_wrap .dep03').removeClass('open');
+        if ($(this).parents'ul'.hasClass'dep03' == true) {
+            $'.snb_wrap .dep03'.removeClass'open';
         }
     });
 
-    //접근성
-    $(document).on('keydown', '.snb_wrap ul.open > li.active > a', function(e) {
+    //?�근??
+    $(document).on'keydown', '.snb_wrap ul.open > li.active > a', function(e) {
         if (e.shiftKey && e.keyCode == 9) {
-            $(this).removeAttr('tabindex');
-            $(this).parents('ul').removeClass('open');
+            $(this).removeAttr'tabindex';
+            $(this).parents'ul'.removeClass'open';
         }
     });
 
-    // 메뉴영역 외부 클릭 시, 메뉴닫기
-    $(document).on('click', function(e) {
-        if (!$(e.target).parents().is('#snb')) {
-            $('#snb ul').removeClass('open');
-            $(".dep01  li.active > a").prop('title', '메뉴 닫힘');
+    // 메뉴?�역 ?��? ?�릭 ?? 메뉴?�기
+    $(document).on'click', function(e) {
+        if (!$(e.target).parents().is'#snb') {
+            $'#snb ul'.removeClass'open';
+            $".dep01  li.active > a".prop'title', '메뉴 ?�힘';
         };
     });
 
-    // resize 대응
+    // resize ?�??
     var delta = 100;
     var timer = null;
-    $(window).on('resize', function() {
+    $(window).on'resize', function() {
         clearTimeout(timer);
         if ($(window).width() > 1024 || $(window).width() < 1024) {
             timer = setTimeout(resizeDone, delta);
@@ -296,46 +296,46 @@ function snb() {
     });
 
     function resizeDone() {
-        $('#snb').find('ul').removeClass('open');
+        $'#snb'.find'ul'.removeClass'open';
     }
 
 }
 
 //sns
 $(function() {
-    $('.snsBox button.btnShare .hid').text('공유(상태 : 축소)');
-    $('.snsBox button.btnShare').click(function() {
-        if ($(this).hasClass('active') == true) {
-            $('.sns_more').slideUp(300);
-            $(this).find('.hid').text('공유(상태 : 축소)');
-            $(this).removeClass('active');
+    $'.snsBox button.btnShare .hid'.text'공유(?�태 : 축소)';
+    $'.snsBox button.btnShare'.click(function() {
+        if ($(this).hasClass'active' == true) {
+            $'.sns_more'.slideUp(300);
+            $(this).find'.hid'.text'공유(?�태 : 축소)';
+            $(this).removeClass'active';
         } else {
-            $('.sns_more').slideDown(300);
-            $(this).find('.hid').text('공유(상태 : 확장)');
-            $(this).addClass('active');
+            $'.sns_more'.slideDown(300);
+            $(this).find'.hid'.text'공유(?�태 : ?�장)';
+            $(this).addClass'active';
         }
     });
-    $(".sns_more button:last-of-type").focusout(function() {
-        $(".sns_more").slideUp(300);
-        $('.snsBox button.btnShare .hid').text('공유(상태 : 축소)');
+    $".sns_more button:last-of-type".focusout(function() {
+        $".sns_more".slideUp(300);
+        $'.snsBox button.btnShare .hid'.text'공유(?�태 : 축소)';
     });
 
 });
 
-//퀵메뉴
+//?�메??
 function quickMenu() {
-    $(document).on('click', '#quickMenuBtn', function(e) {
-        $('#quickMenu').toggleClass('active');
-        if ($('#quickMenu').hasClass('active')) {
-            $('#quickMenuBtn span').text('퀵메뉴영역 닫기');
+    $(document).on'click', '#quickMenuBtn', function(e) {
+        $'#quickMenu'.toggleClass'active';
+        if ($'#quickMenu'.hasClass'active') {
+            $'#quickMenuBtn span'.text'?�메?�영???�기';
         } else {
-            $('#quickMenuBtn span').text('퀵메뉴영역 열기');
+            $'#quickMenuBtn span'.text'?�메?�영???�기';
         }
         return false;
     });
 
-    $(document).on('focusout', '#quickMenu li:last-of-type > a', function(e) {
-        $('#quickMenu').removeClass('active');
-        $('#quickMenuBtn span').text('퀵메뉴영역 열기');
+    $(document).on'focusout', '#quickMenu li:last-of-type > a', function(e) {
+        $'#quickMenu'.removeClass'active';
+        $'#quickMenuBtn span'.text'?�메?�영???�기';
     });
 }

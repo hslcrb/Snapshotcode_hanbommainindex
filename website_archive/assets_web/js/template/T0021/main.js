@@ -1,11 +1,11 @@
 $(function() {
 
     //notice tab
-    $(document).on('click', 'div[class*="notice"] .titTab li > a', function(e) {
+    $(document).on'click', 'div[class*="notice"] .titTab li > a', function(e) {
         var contents = $(this.hash);
 
-        $(this).addClass('current').parent('li').siblings().find('a').removeClass('current');
-        $(contents).addClass('on').siblings().removeClass('on');
+        $(this).addClass'current'.parent'li'.siblings().find'a'.removeClass'current';
+        $(contents).addClass'on'.siblings().removeClass'on';
         e.preventDefault();
     });
 
@@ -14,7 +14,7 @@ $(function() {
     var visualNext = '.visual .next';
     var visualStop = '.visual .stop';
     var visualPlay = '.visual .play';
-    $("#visualSlide").slick({
+    $"#visualSlide".slick({
         slider: '.item',
         infinite: true,
         autoplaySpeed: 4000,
@@ -23,7 +23,7 @@ $(function() {
         prevArrow: visualPrev,
         nextArrow: visualNext
     });
-    $('.visual .control a').click(function(e) {
+    $'.visual .control a'.click(function(e) {
         slickControl($(this), '#visualSlide', visualStop, visualPlay);
         e.preventDefault();
     });
@@ -31,13 +31,13 @@ $(function() {
     // main visual resize
     var delta = 100;
     var timer = null;
-    $(window).on('resize', function() {
+    $(window).on'resize', function() {
         clearTimeout(timer);
         timer = setTimeout(resizeDone, delta);
     });
 
     function resizeDone() {
-        $("#visualSlide").slick('setPosition');
+        $"#visualSlide".slick'setPosition';
     }
 
     //popupZone visual
@@ -45,9 +45,9 @@ $(function() {
     var popupNext = '.popupZone .next';
     var popupStop = '.popupZone .stop';
     var popupPlay = '.popupZone .play';
-    $("#popupSlide").on('init', function(event, slick) {
-        $('.popupZone .page strong').text(slick.currentSlide + 1);
-        $('.popupZone .page span').text(slick.slideCount);
+    $"#popupSlide".on'init', function(event, slick) {
+        $'.popupZone .page strong'.text(slick.currentSlide + 1);
+        $'.popupZone .page span'.text(slick.slideCount);
     }).slick({
         slider: '.item',
         infinite: true,
@@ -56,22 +56,22 @@ $(function() {
         autoplay: true,
         prevArrow: popupPrev,
         nextArrow: popupNext
-    }).on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-        $('.popupZone .page strong').text(nextSlide + 1);
+    }).on'beforeChange', function(event, slick, currentSlide, nextSlide) {
+        $'.popupZone .page strong'.text(nextSlide + 1);
     });
-    $('.popupZone .control a').click(function(e) {
+    $'.popupZone .control a'.click(function(e) {
         slickControl($(this), '#popupSlide', popupStop, popupPlay);
         e.preventDefault();
     });
 
-    //팝업 리스트보기
-    $("#Pop_ListOpen").click(function(e) {
+    //?�업 리스?�보�?
+    $"#Pop_ListOpen".click(function(e) {
         e.preventDefault();
-        $(".pop_layer_box").css("display", "block");
+        $".pop_layer_box".css"display", "block";
     });
-    $("#Pop_ListClose").click(function(e) {
+    $"#Pop_ListClose".click(function(e) {
         e.preventDefault();
-        $(".pop_layer_box").css("display", "none");
+        $".pop_layer_box".css"display", "none";
     });
 
     //banner
@@ -79,7 +79,7 @@ $(function() {
     var bnNext = '.banner_zone .next';
     var bnStop = '.banner_zone .stop';
     var bnPlay = '.banner_zone .play';
-    $("#bnSlider").slick({
+    $"#bnSlider".slick({
         slider: '.item',
         infinite: true,
         autoplay: true,
@@ -112,7 +112,7 @@ $(function() {
             }
         ]
     });
-    $('.banner_zone .btn a').click(function(e) {
+    $'.banner_zone .btn a'.click(function(e) {
         slickControl($(this), '#bnSlider', bnStop, bnPlay);
         e.preventDefault();
     });
@@ -124,16 +124,16 @@ function slickControl($this, slick, stop, play) {
     var $slick = $(slick); //slider wrap
     var $stop = $(stop); //Stop Button
     var $play = $(play); //Play Button
-    var display = $this.css("display"); // button's display
+    var display = $this.css"display"; // button's display
 
     if ($this.is(stop)) {
-        $stop.css('display', 'none');
-        $play.delay(100).css('display', display);
-        $slick.slick('slickPause');
+        $stop.css'display', 'none';
+        $play.delay(100).css'display', display);
+        $slick.slick'slickPause';
     }
     if ($this.is(play)) {
-        $play.css('display', 'none');
-        $stop.delay(100).css('display', display);
-        $slick.slick('slickPlay');
+        $play.css'display', 'none';
+        $stop.delay(100).css'display', display);
+        $slick.slick'slickPlay';
     }
 }
