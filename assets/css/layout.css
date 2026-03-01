@@ -1,4 +1,4 @@
-﻿@import url('./assets/css/basic.css';
+﻿@import url('./basic.css';
 #wrap {
     position: relative;
     overflow: hidden;
@@ -1306,7 +1306,7 @@
 }
 
 #mgnb .depth01>ul>li.dep.active>a {
-    background-image: url('../.../assets/images/common/bg_mNav_active.png';
+    background-image: url('../..../images/common/bg_mNav_active.png';
     background-size: contain;
     background-position: right top;
     background-repeat: no-repeat;
@@ -1793,7 +1793,7 @@
 .visitant h2 { text-indent:-10000em; font-size:0; }
 .visitant ul { overflow:hidden; }
 .visitant ul li { width:49%; float:left; line-height:2rem; text-align:center; color:#fff; font-size:0.65rem; }
-.visitant ul li + li { background: url('../.../assets/images/common/bar_visitant.png' no-repeat left center; }
+.visitant ul li + li { background: url('../..../images/common/bar_visitant.png' no-repeat left center; }
 .visitant ul li strong { margin-right:0.5rem; color:#ffd55f; font-weight: 400; }*/
 
 .visitant {
@@ -2249,7 +2249,7 @@
     width: 34px;
     height: 34px;
     overflow: hidden;
-    background: url("../.../assets/images/sub_com/btnSns.png" no-repeat 0 0;
+    background: url("../..../images/sub_com/btnSns.png" no-repeat 0 0;
     cursor: pointer
 }
 
@@ -2447,7 +2447,7 @@
     color: #fff;
     font-size: 14px;
     padding: 10px 20px 10px 50px;
-    background: #858a92 url('../.../assets/images/board/survey_icon1.png' no-repeat 20px 13px;
+    background: #858a92 url('../..../images/board/survey_icon1.png' no-repeat 20px 13px;
 }
 
 .satisfaction .question_link {
@@ -2534,7 +2534,7 @@
     height: 25px;
     color: #333;
     line-height: 20px;
-    background: url('./assets/images/'web/common/sub/survey_arrow.png' no-repeat 85px 8px;
+    background: url('../images/'web/common/sub/survey_arrow.png' no-repeat 85px 8px;
     padding-right: 10px;
 }
 
@@ -2549,7 +2549,7 @@
     float: left;
     margin-left: 25px;
     padding-left: 10px;
-    background: url('./assets/images/'web/common/sub/survey_dot.png' no-repeat left 50%
+    background: url('../images/'web/common/sub/survey_dot.png' no-repeat left 50%
 }
 
 .satisfaction .admin_info ul li a {
@@ -2562,7 +2562,7 @@
     color: #1c55cc;
     margin: 0 10px 0 0;
     padding-right: 8px;
-    background: url('./assets/images/'web/common/sub/survey_line.gif' no-repeat right 50%
+    background: url('../images/'web/common/sub/survey_line.gif' no-repeat right 50%
 }
 
 @media screen and (max-width:1440px) {

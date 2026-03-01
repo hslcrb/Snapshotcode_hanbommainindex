@@ -56,7 +56,7 @@ Creative date :2022. 05. 23
     display: block;
     width: 5.8rem;
     height: 7.35rem;
-    background: url('./assets/images/'template/T0021/main/0021_bg01.png' center/contain no-repeat;
+    background: url('../images/'template/T0021/main/0021_bg01.png' center/contain no-repeat;
     position: absolute;
     left: 3rem;
     top: 10.35rem;
@@ -68,7 +68,7 @@ Creative date :2022. 05. 23
     display: block;
     width: 9.3rem;
     height: 10.6rem;
-    background: url('./assets/images/'template/T0021/main/0021_bg02.png' center/contain no-repeat;
+    background: url('../images/'template/T0021/main/0021_bg02.png' center/contain no-repeat;
     position: absolute;
     right: 4.5rem;
     top: 10.5rem;
@@ -212,7 +212,7 @@ Creative date :2022. 05. 23
     }
     .MC_wrap1:after {
         height: 44%;
-        background: url('./assets/images/'template/T0021/main/0021_bg02.png' right center/contain no-repeat;
+        background: url('../images/'template/T0021/main/0021_bg02.png' right center/contain no-repeat;
         right: -10%;
         top: 28%;
     }
