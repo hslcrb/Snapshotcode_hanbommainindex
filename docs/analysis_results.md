@@ -8,8 +8,8 @@ This project aims to preserve the website while reorganizing it into a highly re
 ## 구조 정화 및 통합 (Refining & Unification)
 
 ### 1. 단일 웹 인터페이스 (Single Web Interface)
-기존의 복잡한 아카이브 폴더 구조와 `.do` 매핑을 제거하고, 직관적인 정적 웹 환경으로 전환했습니다.
-Removed complex archive folder hierarchies and `.do` mappings, converting to an intuitive static web environment.
+기존의 복잡한 아카이브 폴더 구조와 `.do` 매핑을 제거하고, 직관적인 정적 웹 환경으로 전환했습니다. (아카이빙 도구: Google Chrome "Save All Resources" 익스텐션)
+Removed complex archive folder hierarchies and `.do` mappings, converting to an intuitive static web environment. (Archiving Tool: Google Chrome "Save All Resources" Extension)
 
 - **`index.html` 기반**: 모든 페이지 진입점이 루트의 `index.html`에서 시작됩니다.
   - All entry points start from `index.html` at the root.
@@ -46,3 +46,8 @@ Through this unification, the project has evolved from a simple "data backup" in
 > 본 프로젝트의 분석 및 정비 범위는 메인 인덱스 및 핵심 구조에 한정되어 있습니다. 전체 데이터의 완전한 보존 상태는 [Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages) 저장소를 참조하십시오.
 >
 > The scope of this analysis and refinement is limited to the main index and core structure. For the complete preserved state of all data, please refer to the [Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages) repository.
+
+---
+
+**🇰🇷 대한민국 만세 (Long Live Republic of Korea)!**
+1919.03.01 (+39082일) - 2026.03.01 제107주년 삼일절 기념.

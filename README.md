@@ -12,6 +12,7 @@ This project is a static snapshot of the **Hanbom High School** website, archive
 - **기간 (Period):** 2008-2026
 - **기준 일자 (Date):** 2026년 2월 28일 토요일 (Saturday, February 28, 2026)
 - **원본 주소 (Original URL):** [https://hanbom-h.goesw.kr](https://hanbom-h.goesw.kr)
+- **아카이빙 도구 (Archiving Tool):** Google Chrome Extension "Save All Resources"
 
 ---
 
@@ -67,3 +68,9 @@ For more details, please refer to the following documents:
 ---
 
 *Copyright © 2008-2026 Rheehose (Rhee Creative). All Rights Reserved.*
+
+---
+
+**🇰🇷 대한민국 만세 (Long Live the Republic of Korea)!**
+1919년 03월 01일 (+39082일), 2026년 제107주년 삼일절을 기념합니다.
+Commemorating the 107th Anniversary of the March 1st Movement (1919.03.01 - 2026.03.01).
