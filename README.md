@@ -13,6 +13,15 @@ This project is a static snapshot of the **Hanbom High School** website, archive
 - **기준 일자 (Date):** 2026년 2월 28일 토요일 (Saturday, February 28, 2026)
 - **원본 주소 (Original URL):** [https://hanbom-h.goesw.kr](https://hanbom-h.goesw.kr)
 
+> [!IMPORTANT]
+> **본 아카이브는 인덱스 페이지와 핵심 에셋을 중심으로 한 부분적인 스냅샷입니다.**
+> 전체 페이지와 상세한 히스토리를 포함한 훨씬 더 방대한 분량의 아카이브는 아래 저장소에서 확인하실 수 있습니다:
+> **[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)**
+>
+> **This archive is a partial snapshot focused on the main index and core assets.**
+> A significantly more comprehensive archive containing all pages and historical data is available here:
+> **[https://github.com/hslcrb/Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages)**
+
 ---
 
 ## 통합 웹 구조 (Unified Project Structure)

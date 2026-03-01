@@ -39,3 +39,10 @@ Beyond mere web refinement, advanced technical restoration was performed to ensu
 ## 결론 (Conclusion)
 이러한 통합 작업을 통해, 본 프로젝트는 단순한 "데이터 백업" 수준을 넘어 전문적으로 정비된 **디지털 아카이브 웹 자산**으로 완성되었습니다.
 Through this unification, the project has evolved from a simple "data backup" into a professionally refined digital archive web asset.
+
+---
+
+> [!NOTE]
+> 본 프로젝트의 분석 및 정비 범위는 메인 인덱스 및 핵심 구조에 한정되어 있습니다. 전체 데이터의 완전한 보존 상태는 [Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages) 저장소를 참조하십시오.
+>
+> The scope of this analysis and refinement is limited to the main index and core structure. For the complete preserved state of all data, please refer to the [Archiv_hanbomallpages](https://github.com/hslcrb/Archiv_hanbomallpages) repository.

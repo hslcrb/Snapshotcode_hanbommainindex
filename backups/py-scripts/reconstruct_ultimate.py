@@ -61,7 +61,7 @@ for path in possible_files:
             f_out.write(content.encode('utf-8'))
         print(f'Successfully restored from {path}')
         # If this is the main.do, we are DONE with index.html
-        if 'main.do' in path.lower():
+        if path and 'main.do' in str(path).lower():
             print('MAINDOC RESTORED.')
             # break # Keep scanning to see if others exist
 
