@@ -18,8 +18,8 @@ This document describes the physical structure of the reorganized Hanbom High Sc
 ### 2. 외부 및 내부 에셋 (External & Internal Assets)
 - `external_assets/`: Google Fonts, Google Translate 등 사이트 구동에 필요한 외부 서비스 리소스들의 로컬 캐시입니다.
   - Local caches of external resources like Google Fonts and Translate.
-- `internal_assets/`: 데이터 URI 등 사이트 내부에서 참조하는 데이터 에셋입니다.
-  - Internal data assets such as data URIs.
+- `internal_assets/`: 사이트 내부에서 참조하는 데이터 에셋입니다.
+  - Internal data assets.
 
 ### 3. 기타 (Miscellaneous)
 - `docs/`: 프로젝트 분석 및 구조에 대한 상세 문서입니다.
