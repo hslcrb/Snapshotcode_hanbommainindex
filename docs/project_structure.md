@@ -27,8 +27,9 @@ All resources are consolidated into the `assets/` folder for a standardized stru
 ### 3. 기타 (Miscellaneous)
 - `docs/`: 프로젝트의 상세한 기술 분석 및 구조 설명 문서입니다 (Bilingual).
   - Detailed technical analysis and structure documentation.
-- `backups/`: 원본 아카이브 상태를 보존한 백업 데이터입니다.
-  - Backup data preserving the original archive state.
+- `backups/`: 원본 아카이브 상태를 보존한 백업 데이터 및 작업에 사용된 스크립트 기록입니다.
+  - `scripts/`: 프로젝트 정비 및 통합 과정에서 사용된 모든 PowerShell 스크립트가 보관되어 있습니다.
+  - Backup data and historical records of scripts used during the reorganization.
 
 ## 경로 처리 원칙 (Path Principles)
 - **Relative Pathing**: 모든 파일 내부의 경로는 `./assets/...`와 같이 상대 경로로 구성되어, 웹 서버 없이도 완벽하게 동작합니다.
