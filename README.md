@@ -25,7 +25,7 @@ The directory structure has been reorganized for better readability:
   - `assets_web/`: 웹 전용 스타일 및 스크립트 (Web-specific styles and scripts)
   - `uploads/`: 사이트 내 미디어 업로드 파일 (Media upload files)
 - `external_assets/`: 외부 서비스 로컬 캐시 (Google Fonts, Translate 등) (External service local caches)
-- `internal_assets/`: 내부 데이터 에셋 (Data URIs 등) (Internal data assets)
+- `internal_assets/`: 내부 데이터 에셋 (Internal data assets)
 - `docs/`: 상세 분석 및 구조 문서 (Detailed analysis and structure docs)
 - `backups/`: 원본 아카이브 압축 파일 (Original archive zip)
 
