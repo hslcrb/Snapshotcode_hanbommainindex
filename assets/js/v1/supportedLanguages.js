@@ -1,4 +1,4 @@
-// API callback
+﻿// API callback
 callback({
     "sourceLanguages": [{
             "language": "auto",
@@ -78,7 +78,7 @@ callback({
         },
         {
             "language": "bci",
-            "name": "Baoulé"
+            "name": "Baoul챕"
         },
         {
             "language": "ba",
@@ -710,7 +710,7 @@ callback({
         },
         {
             "language": "kek",
-            "name": "Qʼeqchiʼ"
+            "name": "Q迦eqchi迦"
         },
         {
             "language": "rom",
@@ -1071,7 +1071,7 @@ callback({
         },
         {
             "language": "bci",
-            "name": "Baoulé"
+            "name": "Baoul챕"
         },
         {
             "language": "ba",
@@ -1707,7 +1707,7 @@ callback({
         },
         {
             "language": "kek",
-            "name": "Qʼeqchiʼ"
+            "name": "Q迦eqchi迦"
         },
         {
             "language": "rom",

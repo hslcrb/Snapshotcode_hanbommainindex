@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 
     //notice tab
     $(document).on'click', 'div[class*="notice"] .titTab li > a', function(e) {
@@ -64,7 +64,7 @@ $(function() {
         e.preventDefault();
     });
 
-    //?�업 리스?�보�?
+    //?앹뾽 由ъ뒪?몃낫湲?
     $"#Pop_ListOpen".click(function(e) {
         e.preventDefault();
         $".pop_layer_box".css"display", "block";

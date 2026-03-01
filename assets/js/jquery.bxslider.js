@@ -1,4 +1,4 @@
-/**
+﻿/**
  * bxSlider v4.2.12
  * Copyright 2013-2015 Steven Wanderski
  * Written while drinking Belgian ales and listening to jazz
@@ -32,7 +32,7 @@
         wrapperClass: 'bx-wrapper',
 
         // TOUCH
-        // 배너 bxSlider ?�용 ??a?�그 ?�릭 문제�??�한 ?�정 ?�정
+        // 諛곕꼫 bxSlider ?곸슜 ??a?쒓렇 ?대┃ 臾몄젣濡??명븳 ?ㅼ젙 ?섏젙
         touchEnabled: (navigator.maxTouchPoints > 0),
         swipeThreshold: 50,
         oneToOneTouch: true,

@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
     //tab
     if ($'div[class^="tab_st"]'.length > 0) {
         reactTab();
@@ -25,7 +25,7 @@ $(window).on'resizeEnd', function() {
     resetImgZoom();
 });
 
-/** ?��?지 ?��?보기 **/
+/** ?대?吏 ?뺣?蹂닿린 **/
 function resetImgZoom() {
     var win_w = $(window).innerWidth();
     var zwObj = $'.rsp_img';
@@ -37,7 +37,7 @@ function resetImgZoom() {
             var zwObjUrl = zwObjImg.attr"src";
 
             if (check == false) {
-                this_s.append"<a href='" + zwObjUrl + "' class='btn-zoom' target='_blank' title='?�창?�림'><span class='blind'>?��?지 ?��?보기</span></a>";
+                this_s.append"<a href='" + zwObjUrl + "' class='btn-zoom' target='_blank' title='?덉갹?대┝'><span class='blind'>?대?吏 ?뺣?蹂닿린</span></a>";
                 zwObjImg.addClass"zoom";
             }
         });
@@ -80,7 +80,7 @@ function reactTab() {
         var $link = $(this).find' > ul > li.on > a';
         var $linkCopy = $link.addClass'select'.clone();
 
-        $link.attr'title', $link.text() + ' ?�택???�이지';
+        $link.attr'title', $link.text() + ' ?좏깮???섏씠吏';
         $(this).find'> ul'.before($linkCopy);
     });
 
@@ -93,7 +93,7 @@ function reactTab() {
     });
 }
 
-/* ?�보공개?�도?�내 ??/
+/* ?뺣낫怨듦컻?쒕룄?덈궡 ??/
 $(function() {
     $".info_li li:first".addClass"active";
     $".info_data > div:first".show();
@@ -106,7 +106,7 @@ $(function() {
     });
 
 
-    // 배너모음
+    // 諛곕꼫紐⑥쓬
     var $banner = $"#banner";
     var bannerPrev = '.foot-banner .header-box .prev';
     var bannerNext = '.foot-banner .header-box .next';
@@ -160,7 +160,7 @@ $(function() {
     });
 });
 
-//FAQ : A?�??
+//FAQ : A???
 function bbs_Faq() {
     $'.bbs_FaqA .faq > a'.off'click';
     $'.bbs_FaqA .faq > a'.on'click', function(e) {

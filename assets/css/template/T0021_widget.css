@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------
+﻿/*-----------------------------------------------------------
 Author :yejin, Son
 Creative date :2022. 05. 23
 -----------------------------------------------------------*/
@@ -87,7 +87,7 @@ Creative date :2022. 05. 23
     transform: rotate(90deg);
 }
 
-/* 메인비주??*/
+/* 硫붿씤鍮꾩＜??*/
 
 .MVisual0021 {
     position: relative;
@@ -150,7 +150,7 @@ Creative date :2022. 05. 23
     background: rgb(60, 85, 102, 0.9);
 }
 
-/* 게시??*/
+/* 寃뚯떆??*/
 
 .notice0021 {
     position: relative;
@@ -333,7 +333,7 @@ Creative date :2022. 05. 23
     background: rgba(0, 142, 174, 0.5);
 }
 
-/* 게시??: active */
+/* 寃뚯떆??: active */
 
 .notice0021 .titTab ul li a,
 .notice0021 .titTab ul li a:before,
@@ -389,7 +389,7 @@ Creative date :2022. 05. 23
     background: #008eae;
 }
 
-/* 게시??: new */
+/* 寃뚯떆??: new */
 
 .notice0021 .tabWrap .list_box ul li a.new .date:after {
     content: "N";
@@ -409,7 +409,7 @@ Creative date :2022. 05. 23
     margin-top: -0.625rem;
 }
 
-/* 게시??: no_data */
+/* 寃뚯떆??: no_data */
 
 .notice0021 .tabWrap .list_box ul li.no_data {
     width: 100%;
@@ -418,14 +418,14 @@ Creative date :2022. 05. 23
     box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.08);
 }
 
-/* ?�업�?*/
+/* ?앹뾽議?*/
 
 .slick-list,
 .slick-list .slick-track {
     height: 100%;
 }
 
-/* 240322 ?�업�??��?지 가?�데 ?�렬 ?�정 / lhi3576  */
+/* 240322 ?앹뾽議??대?吏 媛?대뜲 ?뺣젹 ?섏젙 / lhi3576  */
 
 .pop0021 {
     position: relative;
@@ -530,7 +530,7 @@ Creative date :2022. 05. 23
     position: relative;
 }
 
-/** ?�업�?: active **/
+/** ?앹뾽議?: active **/
 
 .pop0021 .control .play:hover,
 .pop0021 .control .play:focus,
@@ -556,7 +556,7 @@ Creative date :2022. 05. 23
     -webkit-transition: all 0.15s;
 }
 
-/* 캘린??*/
+/* 罹섎┛??*/
 
 .pop_schedule0021 {
     display: flex;
@@ -740,7 +740,7 @@ Creative date :2022. 05. 23
     z-index: 3;
 }
 
-/** 캘린??: active **/
+/** 罹섎┛??: active **/
 
 .pop_schedule0021 .sche_wrap .sche_list>a,
 .pop_schedule0021 .sche_wrap .lst li a:before,
@@ -768,7 +768,7 @@ Creative date :2022. 05. 23
     cursor: auto;
 }
 
-/* 20230204 <span><a></a></span> 관???�정 */
+/* 20230204 <span><a></a></span> 愿???섏젙 */
 
 .pop_schedule0021 .sche_wrap .lst li a:hover:before,
 .pop_schedule0021 .sche_wrap .lst li a:focus:before {
@@ -777,13 +777,13 @@ Creative date :2022. 05. 23
     top: 0.25rem;
 }
 
-/* 캘린??: no_data */
+/* 罹섎┛??: no_data */
 
 .pop_schedule0021 .sche_wrap .lst li.no_data {
     width: 100%;
 }
 
-/* 바로가�?*/
+/* 諛붾줈媛湲?*/
 
 .M_link0021 ul {
     display: table;
@@ -866,7 +866,7 @@ Creative date :2022. 05. 23
     line-height: 1.2rem;
 }
 
-/** 바로가�?: active **/
+/** 諛붾줈媛湲?: active **/
 
 .M_link0021 li a .img,
 .M_link0021 li a .img:before,
@@ -890,7 +890,7 @@ Creative date :2022. 05. 23
     width: 100%;
 }
 
-/* 갤러�?*/
+/* 媛ㅻ윭由?*/
 
 .gallery0021 {
     position: relative;
@@ -990,7 +990,7 @@ Creative date :2022. 05. 23
     background: #f0f0f0;
 }
 
-/** 갤러�?: active **/
+/** 媛ㅻ윭由?: active **/
 
 .gallery0021 .list_box ul li a .img img {
     transition: 0.2s;
@@ -1008,7 +1008,7 @@ Creative date :2022. 05. 23
     background: #ff5e6b;
 }
 
-/* 갤러�?: no_data */
+/* 媛ㅻ윭由?: no_data */
 
 .gallery0021 .list_box ul li.no_data {
     width: 100%;
@@ -1016,7 +1016,7 @@ Creative date :2022. 05. 23
     background: rgba(0, 0, 0, 0.05);
 }
 
-/* ?�단 */
+/* ?앸떒 */
 
 .meal_menu0021 {
     position: relative;
@@ -1103,9 +1103,9 @@ Creative date :2022. 05. 23
     top: 0;
 }
 
-/** ?�단 : active **/
+/** ?앸떒 : active **/
 
-/* 배너�?*/
+/* 諛곕꼫議?*/
 
 .banner_zone {
     line-height: 1;
@@ -1175,22 +1175,22 @@ Creative date :2022. 05. 23
 }
 
 @media (max-width: 1240px) {
-    /* 메인비주??*/
+    /* 硫붿씤鍮꾩＜??*/
     .MVisual0021 .control {
         left: 2rem;
     }
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul li a span {
         font-size: 1rem;
     }
     .notice0021 .tabWrap .list_box ul li {
         width: calc(50% - 0.5rem);
     }
-    /* 캘린??*/
+    /* 罹섎┛??*/
     .pop_schedule0021 .sche_wrap .lst li {
         width: 25%;
     }
-    /* 바로가�? */
+    /* 諛붾줈媛湲? */
     .M_link0021 ul {
         width: calc(100% + 2rem);
         margin: 0 -1rem;
@@ -1198,41 +1198,41 @@ Creative date :2022. 05. 23
     .M_link0021 li {
         padding: 0 0.5rem;
     }
-    /* 갤러�?*/
+    /* 媛ㅻ윭由?*/
     .gallery0021 .list_box ul li {
         width: calc(50% - 0.5rem);
     }
 }
 
 @media (max-width: 1024px) {
-    /* 메인비주??*/
+    /* 硫붿씤鍮꾩＜??*/
     .MVisual0021 .item img {
         width: 110%;
         height: auto;
     }
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul li a {
         padding: 0 0.5rem;
     }
-    /* 캘린??*/
+    /* 罹섎┛??*/
     .pop_schedule0021 .sche_wrap .lst li {
         width: 33.33%;
     }
-    /* 갤러�?*/
+    /* 媛ㅻ윭由?*/
     .gallery0021 .list_box ul li a .txt {
         min-width: 0;
     }
 }
 
 @media (max-width: 860px) {
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul li a {
         padding: 0 1.2rem;
     }
     .notice0021 .titTab ul li a span {
         font-size: 1.1rem;
     }
-    /* ?�업�?*/
+    /* ?앹뾽議?*/
     .pop0021 h2 {
         padding: 0;
     }
@@ -1249,7 +1249,7 @@ Creative date :2022. 05. 23
         max-height: 15rem;
         height: auto;
     }
-    /* 바로가�?*/
+    /* 諛붾줈媛湲?*/
     .M_link0021 li {
         display: inline-block;
         width: 25%;
@@ -1257,7 +1257,7 @@ Creative date :2022. 05. 23
     .M_link0021 li:nth-child(n+5) {
         margin-top: 0.5rem;
     }
-    /* ?�단 */
+    /* ?앸떒 */
     .meal_menu0021 .inner {
         height: auto;
     }
@@ -1277,7 +1277,7 @@ Creative date :2022. 05. 23
     .meal_menu0021 .inner ul li dl .meal_list {
         margin-bottom: 1rem;
     }
-    /* 배너�?*/
+    /* 諛곕꼫議?*/
     .banner_zone h2 {
         display: none;
     }
@@ -1292,7 +1292,7 @@ Creative date :2022. 05. 23
     .btnTy1 em {
         display: none;
     }
-    /* 메인비주??*/
+    /* 硫붿씤鍮꾩＜??*/
     .MVisual0021 .slider {
         border-radius: 0 0 2rem 2rem;
     }
@@ -1305,7 +1305,7 @@ Creative date :2022. 05. 23
         height: 1.65rem;
         line-height: 1.65rem;
     }
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul {
         flex-wrap: wrap;
         max-width: calc(100% - 3.7rem);
@@ -1337,7 +1337,7 @@ Creative date :2022. 05. 23
     .notice0021 .tabWrap .list_box .btn_more {
         top: 0.25rem;
     }
-    /* 캘린??*/
+    /* 罹섎┛??*/
     .pop_schedule0021 {
         display: block;
     }
@@ -1394,7 +1394,7 @@ Creative date :2022. 05. 23
 }
 
 @media (max-width: 480px) {
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul li a {
         padding: 0 0.8rem;
         line-height: 2.2rem;
@@ -1410,18 +1410,18 @@ Creative date :2022. 05. 23
     .notice0021 .tabWrap .list_box ul li+li {
         margin-top: 0.7rem;
     }
-    /* 캘린??*/
+    /* 罹섎┛??*/
     .pop_schedule0021 .sche_wrap .lst li {
         width: 50%;
     }
-    /* 바로가�? */
+    /* 諛붾줈媛湲? */
     .M_link0021 li {
         width: 33.33%;
     }
     .M_link0021 li:nth-child(n+4) {
         margin-top: 0.5rem;
     }
-    /* 갤러�?*/
+    /* 媛ㅻ윭由?*/
     .gallery0021 .list_box ul li {
         width: 100%;
     }
@@ -1431,7 +1431,7 @@ Creative date :2022. 05. 23
 }
 
 @media (max-width: 380px) {
-    /* 게시??*/
+    /* 寃뚯떆??*/
     .notice0021 .titTab ul li a span {
         font-size: 1rem;
     }
@@ -1441,7 +1441,7 @@ Creative date :2022. 05. 23
     .notice0021 .tabWrap .list_box ul li a {
         padding: 1.25rem 1rem;
     }
-    /* 캘린??*/
+    /* 罹섎┛??*/
     .pop_schedule0021 .tit_wrap {
         flex-direction: column;
         justify-content: center;
@@ -1471,7 +1471,7 @@ Creative date :2022. 05. 23
     .pop_schedule0021 .btnTy2 {
         top: 1.5rem;
     }
-    /* 바로가�? */
+    /* 諛붾줈媛湲? */
     .M_link0021 li a .img {
         width: 4rem;
         height: 4rem;
@@ -1480,7 +1480,7 @@ Creative date :2022. 05. 23
         max-width: 2.3rem;
         max-height: 2.3rem;
     }
-    /* ?�단 */
+    /* ?앸떒 */
     .meal_menu0021 .inner {
         padding-right: 1.25rem;
     }

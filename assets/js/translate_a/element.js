@@ -1,4 +1,4 @@
-// go/mss-setup#7-load-the-js-or-css-from-your-initial-page
+﻿// go/mss-setup#7-load-the-js-or-css-from-your-initial-page
 if (!window['_DumpException']) {
     const _DumpException = window['_DumpException'] || function(e) {
         throw e;
