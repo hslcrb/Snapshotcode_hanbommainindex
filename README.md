@@ -13,6 +13,14 @@ This project is a static snapshot of the **Hanbom High School** website, archive
 - **기준 일자 (Date):** 2026년 2월 28일 토요일 (Saturday, February 28, 2026)
 - **원본 주소 (Original URL):** [https://hanbom-h.goesw.kr](https://hanbom-h.goesw.kr)
 
+---
+
+## 아카이브 제작 및 관리 (Archive Authorship & Maintenance)
+- **제작자 및 관리자 (Archiver & Maintainer)**: Rheehose (Rhee Creative)
+- **역할 (Role)**: 본 프로젝트는 Rheehose님에 의해 데이터 수집, 인코딩 복구 및 구조 현대화 작업이 수행된 독립적인 디지털 아카이브입니다.
+- **Role**: This project is an independent digital archive curated, repaired, and structuralized by Rheehose.
+
+---
 > [!IMPORTANT]
 > **본 아카이브는 인덱스 페이지와 핵심 에셋을 중심으로 한 부분적인 스냅샷입니다.**
 > 전체 페이지와 상세한 히스토리를 포함한 훨씬 더 방대한 분량의 아카이브는 아래 저장소에서 확인하실 수 있습니다:

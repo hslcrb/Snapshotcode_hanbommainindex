@@ -1,8 +1,23 @@
+# LICENSE (저작권 라이선스)
+
 Copyright (c) 2008-2026 Rheehose (Rhee Creative). All Rights Reserved.
 
-This project is a static snapshot and digital archive of the Hanbom High School website.
-All rights to the original content and branding belong to their respective owners.
-This archive is preserved and reorganized by Rheehose for historical purposes.
+## Digital Archive Project (디지털 아카이브 프로젝트)
+This repository is a professionally curated and reorganized digital archive of the Hanbom High School website. 
+본 저장소는 한봄고등학교 홈페이지를 전문적으로 큐레이션하고 재구성한 디지털 아카이브입니다.
 
-For a more complete archive of all pages, please visit:
+### 1. Ownership & Roles (소유권 및 역할)
+- **Archiver & Maintainer (아카이브 제작 및 관리)**: Rheehose (Rhee Creative)
+  - Responsibilities: Data collection, encoding recovery, structural reorganization, and documentation.
+  - 역할: 데이터 수집, 인코딩 복구, 구조 재편 및 문서화 작업 수행.
+- **Original Content Owner (원저작권자)**: Gyeonggido Office of Education (경기도교육청)
+  - All original content, trademarks, and school-related assets belong to the Gyeonggido Office of Education.
+  - 모든 원본 콘텐츠, 상표 및 학교 관련 자산의 저작권은 경기도교육청에 있습니다.
+
+### 2. Usage Terms (이용 약관)
+This archive is provided for historical, educational, and reference purposes only. 
+본 아카이브는 역사적 기록 보존, 교육 및 참조 목적으로만 제공됩니다.
+
+For more information or a more complete archive, please visit:
+더 상세한 정보나 전체 아카이브는 아래를 참조하십시오:
 https://github.com/hslcrb/Archiv_hanbomallpages

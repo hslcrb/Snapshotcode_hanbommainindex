@@ -38,7 +38,7 @@ Beyond mere web refinement, advanced technical restoration was performed to ensu
 
 ## 결론 (Conclusion)
 이러한 통합 작업을 통해, 본 프로젝트는 단순한 "데이터 백업" 수준을 넘어 전문적으로 정비된 **디지털 아카이브 웹 자산**으로 완성되었습니다.
-Through this unification, the project has evolved from a simple "data backup" into a professionally refined digital archive web asset.
+Through this unification, the project has evolved from a simple "data backup" into a professionally refined digital archive web asset, curated and restored by **Rheehose (Rhee Creative)**.
 
 ---
 

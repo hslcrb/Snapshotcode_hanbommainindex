@@ -1,7 +1,7 @@
 # 프로젝트 구조 (Project Structure)
 
-이 문서는 정비된 한봄고등학교 홈페이지 스냅샷의 통합 웹 구조를 설명합니다.
-This document describes the unified web structure of the Hanbom High School website snapshot.
+본 프로젝트는 **Rheehose (Rhee Creative)**에 의해 큐레이션 및 정비된 아카이브입니다.
+This project is an archive curated and maintained by **Rheehose (Rhee Creative)**.
 
 ## 디렉토리 맵 (Directory Map)
 
