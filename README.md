@@ -16,19 +16,20 @@ This project is a static snapshot of the **Hanbom High School** website, archive
 ---
 
 ## 문서 (Documentation)
-프로젝트 분석 및 구조에 대한 상세 내용은 다음 문서를 참조하십시오:
-For detailed analysis and project structure, please refer to the following documents:
+프로젝트 분석 및 구조에 대한 상세 내용은 다음 문서를 참조하십시오 (상대 경로 사용):
+For detailed analysis and project structure, please refer to the following documents (using relative paths):
 
-1. [Project Structure (프로젝트 구조)](docs/project_structure.md)
-2. [Analysis Results (분석 결과)](docs/analysis_results.md)
+1. [Project Structure (프로젝트 구조)](./docs/project_structure.md)
+2. [Analysis Results (분석 결과)](./docs/analysis_results.md)
 
 ---
 
 ## 기술 스택 (Technical Keywords)
-- Static Site Crawl / Archive
-- HTML, CSS, JavaScript (jQuery base)
-- JSP/Do-mapping 기반 CMS 캡처
+- **기술 (Tech):** Static Site Crawl / Archive (정적 사이트 크롤링 및 아카이브)
+- **언어 (Languages):** HTML, CSS, JavaScript (jQuery base)
+- **시스템 (System):** JSP/Do-mapping 기반 CMS 캡처 (JSP/Do-mapping based CMS capture)
 
 ---
 
 *Copyright © 2008-2026 Rheehose (Rhee Creative). All Rights Reserved.*
+*모든 권리는 Rheehose (Rhee Creative)에게 있습니다.*
